@@ -16,3 +16,15 @@ tl.to("#main", {
   rotate: 360,
   scale: 1,
 });
+
+const navI = document.querySelector("i");
+const menu = document.querySelector(".menu");
+
+navI.addEventListener("click", function () {
+  menu.classList.add("active");
+});
+
+const menuSvg = document.querySelector(".close_btn");
+menuSvg.addEventListener("click", function () {
+  menu.classList.remove("active");
+});
