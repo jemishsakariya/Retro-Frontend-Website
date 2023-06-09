@@ -417,7 +417,6 @@ body {
 .menu .nav_menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     justify-content: end;
     padding: 1rem;
     background-color: #1c1c19;
