@@ -24,7 +24,7 @@ navI.addEventListener("click", function () {
   menu.classList.add("active");
 });
 
-const menuSvg = document.querySelector(".close_btn");
-menuSvg.addEventListener("click", function () {
+const menuCloseButton = document.querySelector(".close_btn");
+menuCloseButton.addEventListener("click", function () {
   menu.classList.remove("active");
 });
