@@ -388,9 +388,10 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #1c1c19;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
+    overflow: hidden;
     color: #C4BCB3;
     font-family: 'Girassol', cursive;
     line-height: 12rem;
@@ -398,6 +399,7 @@ body {
     animation-name: navMenu;
     animation-duration: 1.4s;
     transition: all ease-in 2s;
+    z-index: 1;
 }
 
 @keyframes navMenu {
